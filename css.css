@@ -1,0 +1,120 @@
+/*---------------------- 
+  CSS by Ben-Lab.com
+
+   2012.09.13 
+ ---------------------*/
+html,body{
+background:rgb(4,98,229) url(img/bg.png) center repeat;
+font-family:"Segoe UI Light","Segoe UI","Microsoft Yahei","Segoe UI Web Regular","Segoe UI Symbol","Helvetica Neue","BBAlpha Sans","S60 Sans",Arial,"sans-serif";
+}
+#start{
+font-size:40px;
+color:#fff;
+padding: 40px 0 0 80px;
+}
+#start span{
+padding: 20px 90px 0 0;
+float:right;
+}
+#start span img{
+height:35px;
+border:1px #FFF solid;
+}
+#start span i {
+font-style: normal;
+padding-right: 10px;
+float: left;
+font-size:22px;
+}
+#body{
+display:table;
+margin-left:80px;
+}
+#body .content{
+display:table;
+width:226px;
+float:left;
+margin: 40px 35px 50px 0;
+}
+#body .content div{
+height:110px;
+margin:3px;
+float:left;
+}
+#copyright{
+color:#fff;
+font-size:10px;
+}
+#copyright a,#start span a{
+color:#FFF;
+text-decoration:none;
+}
+.big,.big img{
+width:226px;
+}
+.small{
+width:110px;
+}
+.small img{
+width: 100px;
+margin: -5px auto 0;
+display: block;
+}
+.small span{
+	font-size: 13px;
+	color: #fff;
+	display: block;
+	margin: -9px 0 0 9px;
+}
+.small a{
+	text-decoration: none;
+}
+
+.des p{
+display:none;
+}
+.des  {
+overflow:hidden;
+}
+.des:hover p{
+display:inline;
+font-size:10px;
+color:#FFF;
+}
+.des:hover p span{
+margin:0 10px 10px 10px;
+display:block;
+}
+.des:hover a{
+text-decoration:none;
+}
+.des:hover t{
+font-size:15px;
+display:block;
+text-align:center;
+margin:5px 0 5px 0;
+}
+.des:hover img{
+display:none;
+}
+.pink{
+background-color:#E671B8;
+}
+.orange{
+background-color:#de9317;
+}
+.blue{
+background-color:#1BA1E2;
+}
+.red{
+background-color:#E51400;
+}
+.green{
+background-color:#339933;
+}
+.lime{
+background-color:#96b232;
+}
+.teal{
+background-color:#4eb3b9;
+}
